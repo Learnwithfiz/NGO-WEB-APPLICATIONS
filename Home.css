@@ -1,0 +1,703 @@
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+/*p{font-family: 'Open Sans', sans-serif}*/
+ /*h1 {font-family: 'Roboto', sans-serif;}*/
+ #logo{
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 2px;
+ }
+ .navbar {
+     background-color: red;
+ }
+ .nav-link{
+     color: white !important;
+     font-size: 1.2rem;
+     font-weight: 600;
+     margin-right: 30px;
+     text-transform: uppercase;
+     transition: background  0.7s;
+
+ }
+ .navlink{
+    color: white !important;
+    font-size: 1.4rem;
+    font-weight: 600;
+    
+    text-transform: uppercase;
+    transition: background  0.7s;
+
+ }
+ .nav-link:hover{
+    color: rgb(223, 166, 166) !important;
+    background-color: #4B3869;
+    border-radius: 7px;
+ }
+ .dropdown-menu{
+
+   color: white !important;
+     font-size: 1.2rem;
+     font-weight: 600;
+     margin-right: 30px;
+     background-color: red !important;
+ }
+ .dropdown-item{
+    color: white !important; 
+    font-size: 1.2rem;
+     font-weight: 600;
+     text-transform: uppercase;
+ }
+  .dropdown-item:hover{
+    color: rgb(189, 174, 174) !important; 
+    background-color: red !important;
+    background-color: #4B3869 !important;
+    border-radius: 7px !important;
+ }
+  
+ .scroll_after{
+     background-color: royalblue !important;
+     color:white;
+     transition: background 0.5s;
+ }
+ .dropdown_itemScroll{
+    background-color: royalblue !important;
+    color:white;
+ }
+ .opacity1{
+    opacity: 1 !important;
+    background-color: black;
+    height: 700px;
+    width: 100%;
+  
+ }
+.bg-image{
+    background-image: url("Image/pic5.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 860px;
+    width: 100%;
+    position: relative;
+    background-attachment: fixed;
+    
+}
+.btnn{
+    background-color: #61dafb;
+    font-size: 0.8rem;
+    padding: 6px 15px;
+    border-radius: 30px;
+    color: #282c34;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 20px;
+
+}
+.group{
+    height: 95%;
+    width: 100%;
+    margin-top: 5.6rem;
+}
+.Title{
+    margin-top: 13rem;
+    text-align: left;
+    font-size: 1.5rem;
+    color: white;
+}
+.Top_title{
+    margin-top: 15rem;
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-family: 'Birthstone', cursive;
+
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 2;
+    animation-direction: alternate; 
+}
+
+
+
+.TitleText{
+    color: white;
+    text-align: left;
+    font-size: 3.6rem;
+    font-family: Trebuchet MS;
+}
+.Title2{
+    text-align: left;
+    font-size: 2rem;
+    color: white;
+}
+.Text{
+    color: darkcyan;
+    font-weight: bold;
+    font-size: 1rem;
+
+}
+.Get{
+    color: #003638;
+    font-weight: bold;
+    font-size: 1.8rem;
+    font-family: Trebuchet MS;
+}
+.P-text{
+    color:darkcyan;
+    padding: 20px;
+}
+.hr-style{
+    display: inline-block;
+
+
+}
+.hrr{
+    border: 2px solid white;
+    width: 60px;
+    display: inline-block;
+    border-bottom: none;
+   top:13px;
+    left: 10px;
+    position: relative;
+    border-left: none;
+    border-right: none;
+}
+.btnnn{
+    padding: 5px 40px;
+    border-radius: 50px;
+    background-image: linear-gradient(to right,#00C1D4 , #B97A95);
+}
+.btnnn:hover{
+    background-image: linear-gradient(to right,cyan , darkcyan);
+}
+
+.head{
+    background-image: linear-gradient(darkcyan, darkorchid);
+    height: 160px;
+    width: 100%;
+    border-radius: 5px;
+
+}
+
+.bord{
+    border: 1px solid darkcyan;
+    height: 360px;
+    box-shadow: 1px 1px 2px 1px burlywood;
+    margin: 15px;
+    border-radius: 5px;
+}
+.Web-text{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: white;
+    margin: 10px;
+}
+.s-img{
+    width: 80px;
+    height: 70px;
+    margin-top: 10px;
+}
+.pp{
+    color: darkcyan;
+    font-weight: 0.9rem;
+    padding: 20px;
+}
+.Btn-learn{
+    padding: 6px 20px;
+    border-radius: 50px;
+    font-size: 0.7rem;
+   border: 1px solid darkorchid;
+
+}
+.Btn-learn:hover{
+    background-image: linear-gradient(darkcyan, darkorchid);
+    transition: background-image 1s ;
+    color: white;
+}
+.bord:hover{
+    box-shadow: 3px 3px 4px 3px wheat;
+    cursor: zoom-in;
+    transition:  transform 1s;
+    transform: scale(1.1);
+
+}
+.bg-blob{
+    background-image: url("Image/ww.png");
+    height:1000px;
+
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.who{
+    color: darkcyan;
+    font-weight: bold;
+    padding-top:   100px;
+}
+.bg-white1{
+    background-color: white;
+    width: 100%;
+    height: 110px;
+    border: 1px solid green;
+    border-radius: 20px;
+     box-shadow: 2px 2px 2px #00C1D4 ;
+
+}
+.Info-title{
+    color: darkcyan;
+    text-align: justify;
+    font-family: Trebuchet MS;
+    font-size: 1.2rem;
+    margin-left: 6px;
+}
+.info-text{
+    color: cadetblue;
+    text-align: justify;
+
+    font-size: 0.8rem;
+    margin-left: 6px;
+}
+.all{
+    padding: 10px;
+    font-weight: 600;
+    margin-left: 10px;
+
+}
+.bg-blue{
+    height: 350px;
+    width: 80%;
+    background-image: url("../Image/rec.svg");
+
+   border-radius: 20px;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+  position: relative;
+    margin-top: 100px;
+    margin-left: 50px;
+
+}
+.mb-img{
+    height: 330px;
+    width: 90%;
+    border-radius: 10px;
+    position: absolute;
+    left: 50px;
+    bottom: 40px;
+}
+@keyframes example {
+    0%   {color:red; left:0px; top:0px;}
+    10%   {color:rgb(96, 95, 129); left:0px; top:0px;}
+    25%  {color:yellow; left:200px; top:0px;}
+    40%  {color:rgb(255, 0, 0); left:200px; top:200px;}
+    50%  {color:blue; left:200px; top:200px;}
+    60%  {color:rgb(255, 255, 255); left:200px; top:200px;}
+    75%  {color:green; left:0px; top:200px;}
+    90%  {color:rgb(217, 255, 0); left:200px; top:200px;}
+    100% {color:red; left:0px; top:0px;}
+  }
+.poor {
+    color: orange;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 2;
+    animation-direction: alternate; 
+}
+.fight{
+    color: rgb(255, 251, 0);
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 2;
+    animation-direction: alternate; 
+}
+.ngo{
+    text-align: right;
+    font-size: 1rem;
+    font-weight: bolder;
+    color: white;
+    background-color: orangered;
+    padding: 15px;
+    border-radius: 10px;
+    font-family: 'Birthstone', cursive;
+    cursor: pointer;
+}
+
+.gif_left_image{
+    width: 100%;
+    height: auto;
+}
+
+
+#c_image{
+    width: 100%;
+    height: 500px;
+}
+.top{
+    margin-top: 100px;
+}
+
+.Image_logo{
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
+}
+.pdb{
+    padding-top: 80px;
+    color: gray;
+    font-weight: 700;
+
+}
+.border-redius{
+    border: 5px solid green;
+  
+    color: gray;
+    margin-top: 10px;
+    text-align: center;
+    padding: 7px;
+    transition: background 0.9s;
+    
+}
+.border-redius:hover{
+    background-color: hotpink;
+    color:white;
+    border: 5px solid blue;
+    cursor: pointer;
+
+}
+.border-rediuss{
+   
+    color:rgb(221, 0, 0);
+    border: 5px solid blue;
+    text-align: center;
+    cursor: pointer;
+}
+i{
+    color: blue;
+    font-size: 1.2rem;
+}
+
+h3{
+    font-size: 1rem;
+}
+.ULL li{
+    border: 2px solid blue;
+    padding: 10px;
+    list-style-type: none;
+     border-bottom:none;
+     color: gray;
+     transition: background 0.4s;
+     cursor: pointer;
+}
+.ULL li:hover{
+    background-color: hotpink;
+    color: white;
+}
+
+
+
+.title{
+    text-align: justify;
+}
+.last-bottom{
+    background-color: #2A0944;
+    height: auto;
+    padding: 10px;
+    width: 100%;
+}
+.term a {
+   color: white;
+   font-size: 1rem;
+   transition: color 0.5s;
+
+}
+.term a:hover{
+    color:green;
+    font-size: 1rem;
+}
+footer{
+    width: 100%;
+    height: auto;
+    background-color: #112031;
+    padding: 20px;
+}
+.icon{
+    color: rgb(236, 225, 225);
+    padding: 5px;
+    font-size: 1.2rem;
+    border: 1px solid green;
+    border-radius: 50%;
+}
+.icon:hover{
+    background-color: rgb(109, 109, 75);
+    color: white;
+    transition: 0.5s;
+}
+.fasbookk{
+    color: rgb(236, 225, 225);
+    padding: 5px;
+    font-size: 1.2rem;
+    transition: color 0.9s;
+}
+.fasbookk:hover{
+    color:green;
+}
+.boottom-footer{
+    background-color: #0a0a0a;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+.arro{
+    color: white; border: 3px solid green; background-color: tan; padding: 10px; border-radius: 50%;font-size: 2rem;
+    transition: background 1s ;
+    cursor: pointer;
+}
+.arro:hover{
+    background-color: greenyellow;
+    color: green;
+}
+.count-up-bg-image{
+    background-image: url("Image/Black_bg.jpg");
+    height: 600px;
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.count-opacity{
+    height: 600px;
+    width: 100%;
+    position: relative;
+    background-color: #150050;
+    opacity: 0.7;
+}
+.total-client{
+    margin-top: 6rem;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    font-size: 2.2rem;
+}
+.title-icon{
+    color: white;
+    font: bold;
+    font-size: 2.2rem;
+    border: 3px solid green;
+    padding: 10px;
+    border-radius: 50%;
+    margin-top: 50px;
+    transition: background 0.5s;
+    cursor: pointer;
+
+}
+.title-icon:hover{
+    background-color: green;
+    color: white;
+
+}
+.title-text{
+    color: white;
+    font: bold;
+    font-size: 2.2rem;
+    margin-top: 60px;
+    transition: background 1s;
+    cursor: pointer;
+   
+}
+
+.i1,.d1,.d2,.r1,.r2,.w1,.e1,.e2,.e3{
+    opacity: 0;
+}
+.li.animated , .d1.animated , .d2.animated , .r1.animated,.r2.animated,.w1.animated,.e1.animated,.e2.animated,.e3.animated{
+    opacity: 1;
+}
+
+
+
+.navbar-toggler{
+    background-color: aliceblue !important;
+    color: aliceblue !important;
+ }
+
+
+
+ @media only screen and (max-width: 600px) {
+
+.col-smm{
+    width: 40%;
+    margin: 0px;
+    padding: 0px;
+    
+   
+}
+
+    .count-up-bg-image{
+        background-image: url("Image/Black_bg.jpg");
+        height: 800;
+        width: 100%;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    .count-opacity{
+        height: 800px;
+        width: 100%;
+        position: relative;
+        background-color: #150050;
+        opacity: 0.7;
+    }
+    .total-client{
+        font-size: 0.9rem;
+        margin-top: 1rem;
+        text-align: center;
+        color: white;
+        cursor: pointer;
+    }
+    .title-icon{
+        color: white;
+        font: bold;
+        font-size: 1.5rem;
+        border: 3px solid green;
+        padding: 10px;
+        border-radius: 50%;
+        margin-top: 50px;
+        transition: background 0.5s;
+        cursor: pointer;
+    
+    }
+    .title-icon:hover{
+        background-color: green;
+        color: white;
+    
+    }
+    .title-text{
+        color: white;
+        font: bold;
+        font-size: 0.5rem;
+        margin-top: 60px;
+        transition: background 1s;
+        cursor: pointer;
+    }
+
+
+
+    .nav-link{
+        text-align: center;
+    }
+    .dropdown-item{
+        text-align: center;
+    }
+
+ 
+   
+    
+    
+
+  }
+
+  
+
+
+ @media only screen and (max-width: 1000px) {
+     
+      
+.banner-video{
+    width: 100%;
+    height: 400px;
+    margin-top: 7rem;
+    box-sizing: border-box;
+  
+}
+
+.bg-image{
+    
+    height: 1100px;
+    width: 100%;
+    background-attachment: fixed;
+}
+  
+
+
+
+        
+.count-up-bg-image{
+    background-image: url("Image/Black_bg.jpg");
+    height: 800px;
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.count-opacity{
+    height: 800px;
+    width: 100%;
+    position: relative;
+    background-color: #150050;
+    opacity: 0.7;
+}
+.total-client{
+    margin-top: 6rem;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+.title-icon{
+    color: white;
+    font: bold;
+    font-size: 2.2rem;
+    border: 3px solid green;
+    padding: 10px;
+    border-radius: 50%;
+    margin-top: 50px;
+    transition: background 0.5s;
+    cursor: pointer;
+
+}
+.title-icon:hover{
+    background-color: green;
+    color: white;
+
+}
+.title-text{
+    color: white;
+    font: bold;
+    font-size: 2.2rem;
+    margin-top: 60px;
+    transition: background 1s;
+    cursor: pointer;
+}
+
+
+}
+
+
+    
+
+
+
+
+
+
+
+
+
+
+  /**about page design*/
+

@@ -1,0 +1,114 @@
+
+.topnav{
+    background-color: red;
+    padding: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}.admin{
+   float: left;
+    
+  
+}
+
+.NGO{
+    text-align: center;
+     
+}
+body{
+    background-color: rgb(221, 239, 255);
+}
+.box{
+    width: 60%;
+    height: 400px;
+    background-color: white;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    box-shadow: 5px 5px 4px rgb(46, 46, 46);
+    
+}
+.logo{
+    float: right;
+}
+.form{
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+
+}
+.input_userId{
+    width: 90%;
+    margin: 10px;
+    padding: 7px;
+    background-image: url("Image/icon1.png");
+    background-position-y: 10px;
+    background-position-x: right;
+    background-repeat: no-repeat;
+ 
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 4px solid red;
+  box-shadow: 0px 3px 0px rgb(209, 196, 196);
+}
+.input_pass{
+    width: 90%;
+    margin: 10px;
+    padding: 7px;
+    background-image: url("Image/icon2.png");
+    background-repeat: no-repeat;
+   
+    background-position-y: 10px;
+  background-position-x: right;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 4px solid red;
+  box-shadow: 0px 3px 0px rgb(209, 196, 196);
+}
+::placeholder{
+    color: rgb(43, 43, 43);
+    font-weight: 1.2rem;
+    font-weight: bold;
+}
+.input_userId:focus{
+    border: none;
+    border-radius: 5px;
+}
+.input_pass:focus{
+    border: none;
+    border-radius: 5px;
+}
+.btnz{
+    width: 90%;
+    padding: 7px;
+    color: white;
+    background-color: rgb(223, 36, 36);
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 2px 3px 4px rgb(77, 75, 75);
+
+}
+
+
+
+@media only screen and (max-width:950px){
+    .box{
+        width: 90%;
+        height: 400px;
+        background-color: white;
+        margin: auto;
+        position: relative;
+        top: 100px;
+    }
+    .logo{
+        position: relative;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        bottom: 200px;
+    }
+}
